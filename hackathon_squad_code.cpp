@@ -28,6 +28,9 @@ int main() {
         int u, v;
         cin >> u >> v;
 
+        if(u==v){
+            continue;  //removed self loops
+        }
         adj[u].push_back(v);
         adj[v].push_back(u);
 
