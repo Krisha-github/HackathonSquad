@@ -56,7 +56,6 @@ int main() {
              return skill[a.id] > skill[b.id];
          });
 
-    vector<bool> selected(N + 1, false);
     vector<bool> blocked(N + 1, false);
 
     vector<int> answer;
